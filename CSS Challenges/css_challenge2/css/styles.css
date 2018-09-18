@@ -1,0 +1,92 @@
+/* General setup */
+/* Remember to always comment*/
+
+head{
+  font-size: 14px;
+
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  line-height: 20px;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+  text-indent: 20px;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+h1{
+  letter-spacing: normal;
+  text-align: center;
+}
+
+h2{
+  letter-spacing: normal;
+}
+
+a {
+  color: #a66;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:active{
+color: Black
+}
+
+a[href^="https://"]:after
+{
+content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png
+http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+}
+
+ul{
+  list-style-image: url(https://cdn4.iconfinder.com/data/icons/army/500/bullet_ammunition_army_shoot-16.png);
+  line-height: normal;
+  spacing: normal;
+}
+
+li{
+  line-height: normal;
+
+}
